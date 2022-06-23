@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px) {
+  #content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pagination {
+    justify-content: center;
+  }
+  .pagination .pagination-items {
+    justify-content: space-between;
+  }
+  .pagination a:nth-child(2),
+  .pg:nth-child(3),
+  .pg:nth-child(4),
+  .pg:nth-child(5),
+  .pg:nth-child(6) {
+    display: none;
+  }
+}

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script>
+      function sweet() {
+        swal("STOP", "Anda tidak memiliki ijin", "error");
+      }
+    </script> -->
+    <style>
+      @media screen and (max-width: 768px) {
+        .description p {
+          font-size: 0.8em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-first">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://chia-anime.su/wp-content/uploads/2020/11/ChiaLogo.png" alt="" width="170pxpx" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex ms-auto">
+            <input class="me-2 search" type="search" placeholder="Search..." aria-label="Search" />
+            <button class="btn" type="submit" style="background: #16151d"><i class="bx bx-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-main">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="dashboard">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" id="nav-items" aria-current="page" href="#">Home</a>
+            <a class="nav-link" id="nav-items" href="#">Terbaru</a>
+            <a class="nav-link" id="nav-items" href="#">Populer</a>
+            <a class="nav-link" id="nav-items" href="#">Movie</a>
+            <a class="nav-link" id="nav-items" href="#">Live Action</a>
+            <a class="nav-link" id="nav-items" href="#">Ongoing</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container-main mt-3">
+      <div class="text-info">
+        <marquee behavior="" direction="">
+          <span>Selamat Datang Di Website <a href="">Animeku</a> || Berikan Feedback Apabila Kamu Menyukai Website Ini 👏</span>
+        </marquee>
+      </div>
+    </section>
+
+    <!-- Content Menu -->
+
+    <div class="container-main mt-3">
+      <section id="content">
+        <div class="sidebar">
+          <div class="content-anime">
+            <header>
+              <span>Lastest Release</span>
+            </header>
+            <div class="content-card">
+              <div class="row">
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Date-A-Live-IV.png" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Date a Live IV</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Healer-Girl.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Healer Girl</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Kawaii-dake-ja-Nai-Shikimori-san.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Kawaii dake ja Nai Shikimori san</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Love-Live-Nijigasaki-Gakuen-School-Idol-Doukoukai-2nd-Season.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Love Live Nijigasaki Gakuen School Idol</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/LOVE-ALL-PLAY.png" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Love All Play</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="https://i0.wp.com/chia-anime.su/wp-content/uploads/2021/01/Mushoku-Tensei-Isekai-Ittara-Honki-Dasu.jpg" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Mushoku Tensei: Isekai Ittara Honki Dasu</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Kingdom-4th-Season.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Kingdom 4th Season</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Kaguya-sama-wa-Kokurasetai-Ultra-Romantic.png" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Kaguya sama wa Kokurasetai</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Kunoichi-Tsubaki-no-Mune-no-Uchi.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Kunoichi Tsubaki no Mune no Uchi</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Otome-Game-Sekai-wa-Mob-ni-Kibishii-Sekai-desu.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Otome Game Sekai wa Mobni Kibishii</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="https://i3.wp.com/chia-anime.su/wp-content/uploads/2022/04/Meitantei-Conan.jpg" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Meitantei Conan: Zero no Tea Time</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/BLACK★★ROCK-SHOOTER-DAWN-FALL.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Black★★Rock Shooter:Dawn Fall</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Yu☆Gi☆Oh-GO-RUSH.png" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Yu☆Gi☆Oh GO RUSH</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Spy-x-Family.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Spy x Family</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Build-Divide-Code-Black.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Build Divide Code Black</p>
+                  </div>
+                </div>
+                <div class="items col-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="c-items">
+                    <a href=""><img src="asset/img/top anime/Birdie-Wing-Golf-Girls-Story.webp" alt="" /></a>
+                  </div>
+                  <div class="description">
+                    <p class="text-white">Birdie Wing: Golf Girls Story</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recomendation mt-3">
+            <header>
+              <span>Recomendation</span>
+            </header>
+            <div class="line">
+              <hr />
+            </div>
+            <div class="navtabs p-3">
+              <ul class="nav nav-pills mb-3 d-flex justify-content-around" id="pills-tab tablist" role="tablist" style="background: #333333; border-radius: 5px">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <span class="text-white" style="font-size: 0.9em">School</span>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <span class="text-white" style="font-size: 0.9em">Comedy</span>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <span class="text-white" style="font-size: 0.9em">Sci-Fi</span>
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <div class="row">
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Kaguya-sama-wa-Kokurasetai-Ultra-Romantic.png" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Kaguya-sama wa Kokurasetai: Ultra</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Date-A-Live-IV.png" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Date A Live IV</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Komi-san-wa-Comyushou-desu.-2nd-Season.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Komi-san wa, Comyushou desu. 2nd Season</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Shijou-Saikyou-no-Daimaou-Murabito-A-ni-Tensei-suru.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1 ts">
+                        <p>Shijou Saikyou no Daimaou, Murabito A ni Tensei suru</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="row">
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Kunoichi-Tsubaki-no-Mune-no-Uchi.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Kunoichi Tsubaki no Mune no Uchi</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Kawaii-dake-ja-Nai-Shikimori-san.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Kawaii dake ja Nai Shikimori-san</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Spy-x-Family.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Spy x Family</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Kaguya-sama-wa-Kokurasetai-Ultra-Romantic.png" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Kaguya-sama wa Kokurasetai: Ultra</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="row">
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Kyoukai-Senki-Part-2.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Kyoukai Senki Part 2</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Dolls-Frontline.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Dolls’ Frontline</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Koukaku-Kidoutai-SAC_2045-Jizoku-Kanou-Sensou.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Koukaku Kidoutai: SAC_2045 – Jizoku Kanou Sensou</p>
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                      <div class="b-items">
+                        <a href=""><img src="asset/img/top anime/Gyakuten-Sekai-no-Denchi-Shoujo.webp" alt="" /></a>
+                      </div>
+                      <div class="descriptions1">
+                        <p>Gyakuten Sekai no Denchi Shoujo</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-items leftbar">
+          <div class="space-container">
+            <div class="carousels">
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://wallpapercave.com/dwp1x/wp6081439.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://wallpapercave.com/dwp1x/wp6148068.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://wallpapercave.com/dwp1x/wp5315450.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <section id="filters">
+              <header>
+                <span>Quick Filter</span>
+              </header>
+              <div class="line">
+                <hr />
+              </div>
+              <div class="genre">
+                <span class="type">Genre All</span>
+                <span class="type">Season All</span>
+                <span class="type">Studio All</span>
+                <span class="type">Status All</span>
+                <span class="type">Type All</span>
+                <span class="type">Order by Default</span>
+              </div>
+              <div class="search">
+                <form action="" class="frm">
+                  <input type="search" class="s-genre text-center" placeholder="Search..." autocomplete="off" />
+                  <button><i class="bx bx-search"></i></button>
+                </form>
+              </div>
+            </section>
+            <section id="anime-genres">
+              <header>
+                <span>Anime Genres</span>
+              </header>
+              <div class="line">
+                <hr />
+              </div>
+              <div class="genres">
+                <ul>
+                  <li><a href="">Action</a></li>
+                  <li><a href="">Adventure</a></li>
+                  <li><a href="">Boys Love</a></li>
+                  <li><a href="">CGDCT</a></li>
+                  <li><a href="">Childcare</a></li>
+                  <li><a href="">Comedy</a></li>
+                  <li><a href="">Dementia</a></li>
+                  <li><a href="">Demons</a></li>
+                  <li><a href="">Detective</a></li>
+                  <li><a href="">Ecchi</a></li>
+                  <li><a href="">Fantasy</a></li>
+                  <li><a href="">Game</a></li>
+                  <li><a href="">Harem</a></li>
+                  <li><a href="">Horor</a></li>
+                  <li><a href="">Historical</a></li>
+                  <li><a href="">Idols(Female)</a></li>
+                  <li><a href="">Idols(Male)</a></li>
+                  <li><a href="">Isekai</a></li>
+                  <li><a href="">Iyashikei</a></li>
+                  <li><a href="">Josei</a></li>
+                  <li><a href="">Kids</a></li>
+                  <li><a href="">Magic</a></li>
+                  <li><a href="">Mahou Shounjo</a></li>
+                  <li><a href="">Martial Arts</a></li>
+                  <li><a href="">Mecha</a></li>
+                  <li><a href="">Military</a></li>
+                  <li><a href="">Music</a></li>
+                  <li><a href="">Mystery</a></li>
+                  <li><a href="">Parody</a></li>
+                  <li><a href="">Police</a></li>
+                  <li><a href="">Psychological</a></li>
+                  <li><a href="">Reincarnation</a></li>
+                  <li><a href="">Romance</a></li>
+                  <li><a href="">Romantic Subtext</a></li>
+                  <li><a href="">School</a></li>
+                  <li><a href="">Sci-Fi</a></li>
+                  <li><a href="">Seinen</a></li>
+                  <li><a href="">Shoujou</a></li>
+                  <li><a href="">Shoujou Ai</a></li>
+                  <li><a href="">Shounen</a></li>
+                  <li><a href="">Slice of Life</a></li>
+                  <li><a href="">Sports</a></li>
+                  <li><a href="">Strategy Game</a></li>
+                  <li><a href="">Super Power</a></li>
+                  <li><a href="">Supernatural</a></li>
+                  <li><a href="">Suspense</a></li>
+                  <li><a href="">Team Sports</a></li>
+                  <li><a href="">Thriller</a></li>
+                  <li><a href="">Vampire</a></li>
+                  <li><a href="">Work Life</a></li>
+                  <li><a href="">Silence Voice</a></li>
+                </ul>
+              </div>
+            </section>
+            <section id="ongoing">
+              <header>
+                <h1>Ongoing Series</h1>
+              </header>
+              <div class="line">
+                <hr />
+              </div>
+              <div class="ongoing-items">
+                <ul>
+                  <li>
+                    <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                  <li>
+                    <a href="">
+                      <a href=""><i class="bx bx-chevron-right"></i> <span> Tate no Yuusha no Nariagari Season 2</span> <span>Episode 12</span></a></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/alert.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
