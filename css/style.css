@@ -16,3 +16,23 @@
     display: none;
   }
 }
+#seasons .seasons-items::-webkit-scrollbar {
+  width: 6px;
+}
+#seasons .seasons-items::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000000;
+  border-radius: 5px;
+}
+#seasons .seasons-items::-webkit-scrollbar-thumb {
+  background: rgb(255, 0, 221);
+  border-radius: 5px;
+}
+#seasons .seasons-items::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 221, 0.7);
+}
+
+@media screen and (max-width: 576px) {
+  .text-info span {
+    font-size: 1.1em;
+  }
+}

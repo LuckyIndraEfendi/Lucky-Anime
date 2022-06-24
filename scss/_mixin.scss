@@ -35,7 +35,6 @@ $colors: (
 
   body {
     background: map-get($colors, "body");
-    height: 4000px;
   }
 
   .container-main {
@@ -344,6 +343,8 @@ $colors: (
     margin-top: 10px;
     border-radius: 5px;
     padding: 10px;
+    width: 100%;
+    position: relative;
     header {
       h1 {
         color: map-get($colors, "light");
@@ -384,24 +385,113 @@ $colors: (
             }
             span:nth-child(2) {
               font-weight: 400;
+              font-size: 0.8em;
             }
             span:nth-child(2),
             span:nth-child(3) {
               color: #fff;
             }
             span:nth-child(3) {
-              padding: 5px 6px;
               background: map-get($colors, "light-info");
               border-radius: 5px;
-              font-size: 0.75em;
-              position: relative;
-              right: -5%;
+              padding: 5px 7px;
+              font-size: 0.7em;
+              position: absolute;
+              right: 10px;
             }
             &:hover span:nth-child(2) {
               color: #168ddd;
             }
           }
         }
+      }
+    }
+  }
+  #seasons {
+    background: map-get($colors, "bg-main");
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    header {
+      h1 {
+        font-size: 1.2em;
+        font-weight: 600;
+        color: map-get($colors, "light");
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+    .line {
+      hr {
+        color: map-get($colors, "light");
+      }
+    }
+    .seasons-items {
+      position: relative;
+      height: 300px;
+      overflow-y: scroll;
+
+      ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          border-top: 1px solid #312f40;
+          padding: 7px 10px;
+
+          &:hover {
+            background: rgba(167, 167, 167, 0.1);
+          }
+
+          a {
+            span:nth-child(1) {
+              background: map-get($colors, "light-info");
+              color: map-get($colors, "light");
+              display: inline-block;
+              width: 6px;
+              height: 6px;
+            }
+            span {
+              font-size: 0.9em;
+              margin-left: 5px;
+            }
+            span:nth-child(2) {
+              font-weight: 400;
+              font-size: 0.8em;
+            }
+            span:nth-child(2),
+            span:nth-child(3) {
+              color: #fff;
+            }
+            span:nth-child(3) {
+              text-align: end;
+              position: absolute;
+              right: 10px;
+            }
+            &:hover span:nth-child(2) {
+              color: #168ddd;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background: map-get($colors, "bg-main");
+    margin-top: 6vh;
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+    .copyright {
+      display: grid;
+      justify-content: center;
+      p {
+        color: rgb(168, 167, 167);
+        font-size: 0.8em;
+        text-align: center;
+      }
+      p:nth-child(2) {
+        margin: -5px;
       }
     }
   }
