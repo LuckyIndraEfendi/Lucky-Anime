@@ -1,3 +1,3 @@
 # Lucky-Anime
 
-Live Demo <a href = "https://luckyindraefendi.github.io/Lucky-Anime/">https://luckyindraefendi.github.io/Lucky-Anime/</a>
+Live Demo <a href = "https://luckyindraefendi.github.io/Lucky-Anime/" target="_blank">https://luckyindraefendi.github.io/Lucky-Anime/</a>
